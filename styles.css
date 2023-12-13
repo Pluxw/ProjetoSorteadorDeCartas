@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Fundo neutro */
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  width: 250px; /* Tamanho de uma carta de baralho */
+  height: 350px;
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.suit {
+  font-size: 1rem; /* Tamanho desejado para o naipe */
+}
+
+.name {
+  font-size: 3rem; /* Tamanho desejado para o nome */
+  font-weight: bold;
+}
+
+.coringa {
+  /* Estilos comuns para o coringa */
+  font-size: 1rem;
+}
+
+.coringa-especial {
+  /* Estilos específicos para o coringa especial, se necessário */
+  font-size: 3rem;
+}
+
+.card-image {
+  width: 80%; /* Ajuste conforme necessário */
+  max-height: 60%; /* Ajuste conforme necessário */
+  margin-top: 10px;
+}
+
+.additional-text {
+  margin-top: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  font-family: 'Monaco', monospace;
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+.image-container {
+  width: 100%; /* Ajuste conforme necessário */
+  text-align: center;
+}
+
+#cardImage {
+  max-width: 100%; /* Ajuste conforme necessário */
+  max-height: 100%; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Isso centralizará a imagem horizontalmente */
+}
