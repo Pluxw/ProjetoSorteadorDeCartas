@@ -22,34 +22,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .suit {
-  font-size: 1rem; /* Tamanho desejado para o naipe */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
 }
 
 .name {
-  font-size: 4rem; /* Tamanho desejado para o nome */
+  font-size: 5rem;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.coringa {
-  /* Estilos comuns para o coringa */
-  font-size: 1rem;
-}
-
-.coringa-especial {
-  /* Estilos específicos para o coringa especial, se necessário */
-  font-size: 3rem;
-}
-
 .card-image {
-  width: 80%; /* Ajuste conforme necessário */
-  max-height: 60%; /* Ajuste conforme necessário */
-  margin-top: 10px;
+  width: 60%; 
+  max-height: 80%;
 }
 
 .additional-text {
@@ -58,6 +46,9 @@ body {
 
 .button-container {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
@@ -65,18 +56,43 @@ button {
   font-size: 1rem;
   padding: 10px;
   cursor: pointer;
+  margin-top: 10px; /* Adiciona um espaço entre os botões */
+}
+
+#sortearButton {
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#novoMacoButton {
   border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 20px;  
 }
 
-
-.image-container {
-  width: 100%; /* Ajuste conforme necessário */
-  text-align: center;
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -40px; 
 }
 
-#cardImage {
-  max-width: 50%; /* Ajuste conforme necessário */
-  max-height: 50%; /* Ajuste conforme necessário */
-  margin: 0 auto; /* Isso centralizará a imagem horizontalmente */
+.name-container img {  
+  width: 70%;
+  margin-bottom: 0;
 }
+
+.chapeu {
+  position: relative;
+  z-index: 2;
+}
+
+.coringa-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilizando a imagem de abertura */
+img[src='./imagens/abertura.png'] {
+  width: 100%; 
+}
+
