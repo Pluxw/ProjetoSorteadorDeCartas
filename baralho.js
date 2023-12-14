@@ -54,7 +54,7 @@ function exibirCarta(carta) {
     }
 
     // Defina a lógica para exibir a imagem da carta (quando estiver pronto)
-    cardImageElement.src = ""; // Substitua com o caminho da sua imagem
+    cardImageElement.src = `imagens/${carta.naipe.toLowerCase()}.png`;
 
     // Defina a lógica para o texto adicional, pode ser vazio se não houver texto
     additionalTextElement.textContent = "";

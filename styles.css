@@ -27,11 +27,13 @@ body {
 
 .suit {
   font-size: 1rem; /* Tamanho desejado para o naipe */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .name {
-  font-size: 3rem; /* Tamanho desejado para o nome */
+  font-size: 4rem; /* Tamanho desejado para o nome */
   font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .coringa {
@@ -74,7 +76,7 @@ button {
 }
 
 #cardImage {
-  max-width: 100%; /* Ajuste conforme necessário */
-  max-height: 100%; /* Ajuste conforme necessário */
+  max-width: 50%; /* Ajuste conforme necessário */
+  max-height: 50%; /* Ajuste conforme necessário */
   margin: 0 auto; /* Isso centralizará a imagem horizontalmente */
 }
