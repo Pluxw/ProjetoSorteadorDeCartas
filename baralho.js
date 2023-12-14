@@ -30,7 +30,7 @@ function embaralharCartas(baralho) {
         [baralho[i], baralho[j]] = [baralho[j], baralho[i]];
     }
 }
-
+ 
 function sortearCarta() {
     const cartaSorteada = baralho.shift(); // Retira a primeira carta do baralho
     exibirCarta(cartaSorteada);
